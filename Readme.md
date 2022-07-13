@@ -29,7 +29,7 @@ jadi pastikan kamu ganti remotenya setelah kamu clone repository seseorang.
 
 // Git remote -vv : untuk cek keseluruhan remote kamu dengan mendetail.
 // Git remote add <nama remote> <url remote> : untuk menambahkan remote di wsl kamu.
-// Git remote remove <nama remote> <url remote> : untuk menghapus remote di wsl kamu.
+// Git remote remove <nama remote> <url remote> : untuk menghapus remote di wsl kamu
   
   
 
