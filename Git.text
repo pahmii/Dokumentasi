@@ -29,3 +29,7 @@ jadi pastikan kamu ganti remotenya setelah kamu clone repository seseorang.
 // Git remote add : untuk menambahkan remote di wsl kamu. 
 // Git remote remove : untuk menghapus remote di wsl kamu.
 
+--- Membuat SSH Keys ---
+Langkah 1 – Membuat SSH Keys
+// ssh-keygen -t rsa
+
