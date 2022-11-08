@@ -32,4 +32,22 @@ jadi pastikan kamu ganti remotenya setelah kamu clone repository seseorang.
 --- Membuat SSH Keys ---
 Langkah 1 – Membuat SSH Keys
 // ssh-keygen -t rsa
+Setelah Anda masukkan perintah ini, beberapa pertanyaan akan muncul:
+
+Enter file in which to save the key (/home/tautvydas/.ssh/id_rsa):
+
+Anda bisa membiarkan dan langsung tekan tombol ENTER tanpa perlu mengetik apapun, sehingga key generator bisa membuat pasangan kunci di lokasi default (dalam tutorial ini, kami memasukkan nama tud_id untuk menghindari duplikasi kunci, karena perangkat yang kami gunakan untuk uji coba sudah memiliki kunci id_rsa yang sudah terbuat sebelumnya). 2 pertanyaan akan muncul di layar selanjutnya:
+
+Enter passphrase (empty for no passphrase):
+
+Lalu:
+
+Enter same passphrase again:
+
+Untuk alasan kenyamanan, kita bisa membiarkannya tetap kosong. Dengan begitu, setelah membuat kunci untuk server remote, Anda tidak perlu lagi menggunakan password untuk masuk (log in). Anda cukup mengetikkan perintah ssh user@serverip dan Anda akan bisa masuk selama kunci benar-benar telah terpasang dengan baik. Namun bila Anda menginginkan keamanan yang lebih, Anda bisa memasukkan passphrase (password) di bagian ini. Jika Anda memilih opsi ini, Anda perlu memasukkan password setiap Anda terhubung ke perangkat remote.
+
+Ya, hanya itu saja, sekarang Anda akan melihat tampiilan seperti berikut ini di Terminal:
+
+Gambar yang muncul di komputer Anda PASTI BERBEDA dengan gambar di atas, begitu juga dengan kunci fingerprint.
+
 
