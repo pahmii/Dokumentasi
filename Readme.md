@@ -30,6 +30,50 @@ jadi pastikan kamu ganti remotenya setelah kamu clone repository seseorang.
 // Git remote -vv : untuk cek keseluruhan remote kamu dengan mendetail.
 // Git remote add <nama remote> <url remote> : untuk menambahkan remote di wsl kamu.
 // Git remote remove <nama remote> <url remote> : untuk menghapus remote di wsl kamu
+
+--- Ukuran Media Query ---
+// // -=-=-=-=-=-=-=-=- RESPONSIVE CONTROL -=-=-=-=-=-=-=-=-
+// /*
+//   ##Device = Desktops
+//   ##Screen = 1281px to higher resolution desktops
+// */
+// $ultrawide: "only screen and (min-width: 1536px)";
+
+// /*
+//   ##Device = Desktops
+//   ##Screen = 1281px to higher resolution desktops
+// */
+// $dekstop: "only screen and (min-width: 1281px)";
+
+// /*
+//   ##Device = Laptops, Desktops
+//   ##Screen = B/w 1025px to 1280px
+// */
+// $laptop: "only screen and (min-width: 1025px) and (max-width: 1280px)";
+
+// /*
+//   ##Device = Tablets, Ipads (portrait)
+//   ##Screen = B/w 768px to 1024px
+// */
+// $tablet: "only screen and (min-width: 768px) and (max-width: 1024px)";
+
+// /*
+//   ##Device = Tablets, Ipads (landscape)
+//   ##Screen = B/w 768px to 1024px
+// */
+// $tablet-l: "only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)";
+
+// /*
+//   ##Device = Low Resolution Tablets, Mobiles (Landscape)
+//   ##Screen = B/w 320px to 479px
+// */
+// $phone: "only screen and (min-width: 320px) and (max-width: 480px)";
+
+// /*
+//   ##Device = Most of the Smartphones Mobiles (Large)
+//   ##Screen = B/w 481px to 767px
+// */
+// $phone-l: "only screen and (min-width: 481px) and (max-width: 767px)";
   
   
 
