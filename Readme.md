@@ -1,4 +1,4 @@
-# dokumentasi
+# Dokumentasi
 Isinya tentang Dokumentasi
 
 --- Tahapan menggunakan Git ---
